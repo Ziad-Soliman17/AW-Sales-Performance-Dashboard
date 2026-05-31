@@ -86,6 +86,7 @@ This chart surfaces which relationships are critical and how exposed the rep wou
 ### 6. Sales by Product — Top/Bottom Toggle (Bar Chart)
 The Top view shows which products resonate with the rep's customers. The Bottom view surfaces what needs attention or repositioning.
 Together they inform smarter territory planning and targeted product training decisions.
+
  ---
  
 ## How to Use

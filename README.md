@@ -1,6 +1,8 @@
 # AW-Sales-Performance-Dashboard
 A rep-level sales performance dashboard built in Power BI, designed to give sales managers and reps a single-pane view of sales performance, customer mix, product trends, and quota attainment.
- 
+
+![image alt](https://github.com/Ziad-Soliman17/AW-Sales-Performance-Dashboard/blob/0b8a4cde37b6da97ca292645efeddf8cfcc3f8a7/Sales%20Rep%20Dashboard.png)
+
 ---
  
 ## Project Overview
@@ -12,7 +14,7 @@ Data is filtered to  years **2012–2013**, with quota data scoped to **2013** t
  
 **Source**: Microsoft AdventureWorks Data Warehouse  
 **Files**: SQL scripts and .pbix file included in this repository
- 
+
 ---
  
 ## Tools & Stack

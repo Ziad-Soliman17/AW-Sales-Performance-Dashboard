@@ -18,7 +18,6 @@ Data is filtered to  years **2012–2013**, with quota data scoped to **2013** t
 ---
  
 ## Tools & Stack
- 
 - Power BI Desktop - Report authoring and DAX development
 - Power Query - Data transformation and loading
 - DAX - All KPI measures and time intelligence
@@ -27,18 +26,19 @@ Data is filtered to  years **2012–2013**, with quota data scoped to **2013** t
 ---
  
 ## Objectives
- 
 - Track total sales, order volume, and quantity versus prior year (PY)
 - Monitor quota attainment at any point in time
 - Identify which product categories are growing or declining
 - Surface the top resellers driving 80% of revenue (Pareto principle)
-- Reveal which individual products contribute the most to rep revenue
+- Reveal which individual products contribute the most to rep sales
+ 
 ---
  
 ## Data Model
 All tables were extracted from the **AdventureWorksDW** database using SQL queries and loaded directly into Power BI via SQL Server connector. Each query maps to one table in the data model.
 The report is built on a **star schema** connecting a central fact table to supporting dimension tables.
 
+![image alt](https://github.com/Ziad-Soliman17/AW-Sales-Performance-Dashboard/blob/e8569792177aabe25b54db771c5e6f3b574953c6/Data%20Model%20.JPG)
 
 ---
   
@@ -50,7 +50,7 @@ The report is built on a **star schema** connecting a central fact table to supp
 - **Donut chart** — Sales split by business type (Value Added Reseller, Warehouse, Specialty Bike Shop)
 - **Bar chart** — Top/Bottom N products with a field parameter toggle (Sales, Quantity)
 - **Matrix table** — Category breakdown with expandable product rows and conditional growth formatting
-- 
+
 ### DAX Techniques
 - `CALCULATE()` for filter context manipulation
 - `ALL()` for removing filters to calculate totals and percentages
